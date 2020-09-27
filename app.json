@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "teamcoreTestQuestionary",
+    "name": "Teamcore Mobile Test",
     "slug": "teamcoreTestQuestionary",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/teamcoreLogoCloud.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/teamcoreLogoPrincipal.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

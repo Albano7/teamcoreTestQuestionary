@@ -12,7 +12,8 @@ export const postAnswerQuestionarySuc = ( data: any ) => {
   };
 };
 
-export const postAnswerQuestionaryError = (error: any) => {
+export const postAnswerQuestionaryError = (error?: any) => {
+  console.log('ERROR llegando aca:', error);
   return {
     type: "POST_ANSWER_QUESTIONARY_ERROR",
     payload: {

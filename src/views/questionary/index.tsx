@@ -24,7 +24,7 @@ const Questionary = ({ onGetQuestionary, questionaryData, fetchQuestionary, onPo
     const answers = Object.keys(value).map( (key: string) =>{
       return({ id: key, option: { id: value[key] } })
     })
-    const data = { id: '1',  answers }
+    const data = { id: questionaryData.id,  answers }
     onPostAnswerQuestionary(data)
   }
   
